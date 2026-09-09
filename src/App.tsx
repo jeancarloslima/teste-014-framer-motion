@@ -1,4 +1,5 @@
 import AnimatedButton from "./components/AnimatedButton";
+import AnimatedCard from "./components/AnimatedCard";
 import AnimatedList from "./components/AnimatedList";
 import AnimatedModal from "./components/AnimatedModal";
 import AnimatedScroll from "./components/AnimatedScroll";
@@ -10,6 +11,7 @@ function App() {
       <AnimatedModal />
       {/* <AnimatedScroll /> */}
       <AnimatedList />
+      <AnimatedCard />
     </div>
   );
 }
